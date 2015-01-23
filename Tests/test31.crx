@@ -1,0 +1,5 @@
+if(take == true)
+{
+    take = false;
+    return Token;
+}
