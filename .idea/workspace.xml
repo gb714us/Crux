@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a608fff4-682f-4dc8-a121-03f8c3bc05f9" name="Default" comment="" />
+    <list default="true" id="a608fff4-682f-4dc8-a121-03f8c3bc05f9" name="Default" comment="Update Compiler, Added Parser.java">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crux/NonTerminal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crux/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test01.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test01.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test02.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test02.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test03.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test03.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test04.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test04.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test05.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test05.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test06.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test06.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test07.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test07.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test08.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test08.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test09.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test09.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test10.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test10.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test11.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test11.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test12.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test12.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test13.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test13.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test14.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test14.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test15.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Parser/test15.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test01.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test01.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test01.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test01.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test02.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test02.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test02.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test02.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test03.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test03.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test03.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test03.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test04.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test04.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test04.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test04.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test05.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test05.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test05.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test05.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test06.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test06.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test06.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test06.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test07.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test07.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test07.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test07.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test08.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test08.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test08.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test08.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test09.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test09.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test09.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test09.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test10.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test10.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test10.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test10.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test11.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test11.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test11.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test11.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test12.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test12.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test12.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test12.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test13.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test13.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test13.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test13.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test14.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test14.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test14.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test14.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test15.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test15.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test15.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test15.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test16.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test16.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test16.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test16.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test17.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test17.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test17.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test17.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test18.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test18.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test18.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test18.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test19.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test19.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test19.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test19.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test20.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test20.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test20.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test20.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test21.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test21.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test21.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test21.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test22.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test22.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test22.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test22.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test23.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test23.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test23.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test23.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test24.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test24.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test24.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test24.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test25.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test25.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test25.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test25.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test26.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test26.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test26.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test26.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test27.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test27.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test27.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test27.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test28.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test28.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test28.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test28.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test29.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test29.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test29.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test29.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test30.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test30.crx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test30.out" afterPath="$PROJECT_DIR$/Tests/Scanner/test30.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/test31.crx" afterPath="$PROJECT_DIR$/Tests/Scanner/test31.crx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crux/Compiler.java" afterPath="$PROJECT_DIR$/src/crux/Compiler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crux/Token.java" afterPath="$PROJECT_DIR$/src/crux/Token.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="crux_compiler.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +124,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crux/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2970">
-              <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+            <state vertical-scroll-proportion="-4.0" vertical-offset="2442" max-vertical-offset="2970">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,93 +136,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test30.crx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test30.crx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test28.crx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test28.crx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crux/Token.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2670">
-              <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Compiler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Compiler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crux/Compiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6132597" vertical-offset="42" max-vertical-offset="585">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test31.crx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test31.crx">
+      <file leaf-file-name="NonTerminal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crux/NonTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4815">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="43" />
+              <folding>
+                <element signature="e#8118#8130#0" expanded="true" />
+                <element signature="e#8178#8179#0" expanded="true" />
+                <element signature="e#8212#8213#0" expanded="true" />
+                <element signature="e#8263#8264#0" expanded="true" />
+                <element signature="e#8294#8295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test23.crx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test23.crx">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crux/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="6375">
+              <caret line="233" column="39" selection-start-line="233" selection-start-column="39" selection-end-line="233" selection-end-column="39" />
+              <folding>
+                <element signature="e#3070#3071#0" expanded="true" />
+                <element signature="e#3136#3137#0" expanded="true" />
+                <element signature="method#literal#0;class#Parser#0" expanded="false" />
+                <element signature="method#designator#0;class#Parser#0" expanded="false" />
+                <element signature="method#program#0;class#Parser#0" expanded="false" />
+                <element signature="method#type#0;class#Parser#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test23.out" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test23.out">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="test01.crx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Parser/test01.crx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test24.crx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test24.crx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test25.crx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test25.crx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -133,13 +191,18 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/crux/Compiler.java" />
-        <option value="$PROJECT_DIR$/src/crux/Token.java" />
         <option value="$PROJECT_DIR$/src/crux/Scanner.java" />
         <option value="$PROJECT_DIR$/Tests/test31.crx" />
+        <option value="$PROJECT_DIR$/src/crux/Token.java" />
+        <option value="$PROJECT_DIR$/src/crux/NonTerminal.java" />
+        <option value="$PROJECT_DIR$/src/crux/Compiler.java" />
+        <option value="$PROJECT_DIR$/src/crux/Parser.java" />
       </list>
     </option>
   </component>
@@ -147,12 +210,12 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
+    <option name="x" value="92" />
     <option name="y" value="23" />
-    <option name="width" value="1400" />
+    <option name="width" value="1511" />
     <option name="height" value="921" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -177,6 +240,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,6 +272,28 @@
               <option name="myItemId" value="Tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crux_compiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crux_compiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -229,7 +315,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -254,9 +339,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests/Parser" />
+      <recent name="$PROJECT_DIR$/src/crux" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests/Scanner" />
       <recent name="$PROJECT_DIR$/Tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -312,9 +403,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -331,26 +419,7 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -381,8 +450,12 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -396,11 +469,21 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <pass-parent-envs>true</pass-parent-envs>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -423,6 +506,14 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="2">
@@ -451,15 +542,16 @@
       <workItem from="1421218834765" duration="1851000" />
       <workItem from="1421220787373" duration="1363000" />
       <workItem from="1421222159487" duration="5507000" />
+      <workItem from="1422127091457" duration="8572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32535000" />
+    <option name="totallyTimeSpent" value="41107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="23" width="1400" height="921" extended-state="0" />
-    <editor active="false" />
+    <frame x="92" y="23" width="1511" height="921" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -467,6 +559,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906102" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -475,20 +568,48 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293124" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982981" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906102" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -505,6 +626,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Update Compiler, Added Parser.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Compiler, Added Parser.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,7 +657,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -543,27 +666,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7369" max-vertical-offset="34170">
-          <caret line="540" column="0" selection-start-line="540" selection-start-column="0" selection-end-line="540" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4579" max-vertical-offset="10515">
-          <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16399" max-vertical-offset="23160">
-          <caret line="1149" column="0" selection-start-line="1149" selection-start-column="0" selection-end-line="1149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.12" vertical-offset="2832" max-vertical-offset="5175">
@@ -578,14 +680,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test21.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test21.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="824">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test20.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test20.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -600,14 +702,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test30.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test30.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="824">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test29.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test29.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -615,18 +717,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test29.out">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test29.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15660">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test27.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test27.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -634,29 +736,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test28.out">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test28.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test26.out">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test26.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test26.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test26.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -664,7 +766,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test24.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test24.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -672,7 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test25.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test25.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -680,7 +782,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test01.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test01.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="824">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -688,7 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test01.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test01.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -696,18 +798,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test27.out">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test27.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="24.4" vertical-offset="732" max-vertical-offset="1245">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test05.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test05.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="824">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -715,7 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test05.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test05.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -723,7 +825,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test04.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test04.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -731,7 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test04.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test04.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -739,7 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test03.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test03.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -747,7 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test06.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test06.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -755,7 +857,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test07.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test07.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="824">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -763,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test07.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test07.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -771,7 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test08.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test08.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -779,7 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test09.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test09.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -787,7 +889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test09.out">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test09.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -795,7 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test10.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test10.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -803,7 +905,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test11.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test11.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -811,7 +913,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test12.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test12.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -819,7 +921,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test13.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test13.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -827,7 +929,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test16.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test16.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -835,7 +937,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test17.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test17.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -843,7 +945,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test20.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test20.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -851,7 +953,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test21.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test21.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -859,7 +961,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test22.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test22.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -867,18 +969,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test22.out">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test22.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test23.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test23.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -886,18 +988,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test23.out">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test23.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test24.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test24.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -905,7 +1007,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test25.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test25.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -913,7 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test30.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test30.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -921,7 +1023,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test28.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test28.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -929,7 +1031,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test31.crx">
+    <entry file="file://$PROJECT_DIR$/Tests/Scanner/test31.crx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
@@ -939,27 +1041,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crux/Token.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="2670">
-          <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crux/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2970">
-          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+        <state vertical-scroll-proportion="2.5849514" vertical-offset="0" max-vertical-offset="2760">
+          <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3217#3218#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crux/Compiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6132597" vertical-offset="42" max-vertical-offset="585">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crux/NonTerminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4815">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="e#8118#8130#0" expanded="true" />
+            <element signature="e#8178#8179#0" expanded="true" />
+            <element signature="e#8212#8213#0" expanded="true" />
+            <element signature="e#8263#8264#0" expanded="true" />
+            <element signature="e#8294#8295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crux/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="6375">
+          <caret line="233" column="39" selection-start-line="233" selection-start-column="39" selection-end-line="233" selection-end-column="39" />
+          <folding>
+            <element signature="e#3070#3071#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+            <element signature="method#literal#0;class#Parser#0" expanded="false" />
+            <element signature="method#designator#0;class#Parser#0" expanded="false" />
+            <element signature="method#program#0;class#Parser#0" expanded="false" />
+            <element signature="method#type#0;class#Parser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Parser/test01.crx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="801">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crux/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0" vertical-offset="2442" max-vertical-offset="2970">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

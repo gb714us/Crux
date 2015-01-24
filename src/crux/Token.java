@@ -2,6 +2,7 @@ package crux;
 
 public class Token {
 
+
 	public static enum Kind
 	{
 		AND("and"),
@@ -162,6 +163,11 @@ public class Token {
 	public int charPosition()
 	{
 		return charPos;
+	}
+
+	public Kind kind()
+	{
+		return this.kind;
 	}
 	
 	// Return the lexeme representing or held by this token
