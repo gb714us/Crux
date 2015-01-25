@@ -85,7 +85,7 @@ public enum NonTerminal
         private static final long serialVersionUID = 1L;
 
         {
-            add(Token.Kind.IDENTIFIER);
+            add(Token.Kind.CALL);
         }
     }),
     OP0(new HashSet<Token.Kind>()
