@@ -60,7 +60,7 @@ public class Token {
 		
 		public boolean hasStaticLexeme()
 		{
-			return default_lexeme != "";
+			return !default_lexeme.equals("");
 		} //had to change to "" from null because of
 																		 // object never being null
 		
@@ -141,7 +141,7 @@ public class Token {
 		this.charPos = charPos;
 		
 		// TODO: based on the given lexeme determine and set the actual kind
-		for (Token.Kind kind : Token.Kind.values())
+		for (Kind kind : Kind.values())
 		{
 			if (kind.matches(lexeme))
 			{
@@ -185,7 +185,7 @@ public class Token {
 		return this.kind + extra + "(lineNum:" + this.lineNum + ", charPos:" + this.charPos + ")" ;
 	}
 
-	public boolean is(Token.Kind kind)
+	public boolean is(Kind kind)
 	{
 		return kind == this.kind;
 	}

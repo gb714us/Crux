@@ -1,0 +1,6 @@
+
+
+func main() : void
+{
+    array arr: int[3][3];
+}

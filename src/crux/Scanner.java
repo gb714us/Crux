@@ -149,7 +149,7 @@ public class Scanner implements Iterable<Token> {
 		{
 			stringBuilder = initialize();
 
-			while (Character.isLetter(nextChar) || nextChar == '_' || Character.isDigit(nextChar) )
+			while (Character.isLetter(nextChar) || nextChar == '_' || Character.isDigit(nextChar))
 				advance(stringBuilder);
 
 			for (Token.Kind kind : Token.Kind.values())
