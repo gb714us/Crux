@@ -18,34 +18,34 @@ public class SymbolTable {
     public SymbolTable(SymbolTable parent)
     {
         symbols = new Vector<Symbol>();
-        depth = parent.getDepth() + 1;
+        depth = parent.depth + 1;
         this.parent = parent;
     }
     
     public Symbol lookup(String name) throws SymbolNotFoundError
     {
-        SymbolTable current = this;
-        do
+        boolean found = false;
+        for (Symbol s : symbols)
         {
-            for (Symbol s: symbols)
+            if (s.name().equals(name))
             {
-                if (s.name().equals(name))
-                    return s;
+                return s;
             }
+        }
 
-            current = current.getParent();
-        } while (current != null);
-
+        if (!found && parent != null)
+            return parent.lookup(name);
         throw new SymbolNotFoundError(name);
     }
 
        
     public Symbol insert(String name) throws RedeclarationError
     {
-        if (!this.contains(name))
+        if (!contains(name))
         {
-            symbols.add(new Symbol(name));
-            return symbols.lastElement();
+            Symbol symbol = new Symbol(name);
+            symbols.add(symbol);
+            return symbol;
         }
         throw new RedeclarationError(name);
     }
@@ -53,25 +53,21 @@ public class SymbolTable {
 
     public boolean contains(String name)
     {
-        SymbolTable current = this;
-        do
+        for (Symbol s : symbols)
         {
-            for (Symbol s: symbols)
+            if (s.name().equals(name))
             {
-                if (s.name().equals(name))
-                    return true;
+                return true;
             }
-
-            current = current.getParent();
-        } while (current != null);
-
+        }
         return false;
+
     }
     
     public String toString()
     {
         StringBuffer sb = new StringBuffer();
-        if (symbols.size() > 1)
+        if (parent != null)
             sb.append(parent.toString());
         
         String indent = new String();
